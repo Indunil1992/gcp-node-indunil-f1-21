@@ -1,0 +1,133 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "c443d0fd-c563-403d-9457-d44b639f8200": {
+        "id": "c443d0fd-c563-403d-9457-d44b639f8200",
+        "parent": null,
+        "name": "gcp-node-indunil-f1-21.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "gcp-node-indunil-f1-21.js",
+        "cursor": {
+          "lineNumber": 1,
+          "column": 1
+        },
+        "config": {
+          "runtime": "nodejs8",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "triggerType": 0,
+          "name": "gcpNodeIndunilF121"
+        },
+        "triggers": [
+          {
+            "resourceName": "http-trigger",
+            "config": {}
+          }
+        ],
+        "lastUpdated": 1612154147646
+      },
+      "da625822-73ef-42ce-ae9c-47a29eba0189": {
+        "id": "da625822-73ef-42ce-ae9c-47a29eba0189",
+        "parent": null,
+        "name": "index.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "index.js"
+      },
+      "e8abfaf1-4dfa-4857-80cd-99550a48013e": {
+        "id": "e8abfaf1-4dfa-4857-80cd-99550a48013e",
+        "parent": null,
+        "name": "main.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "main.py"
+      },
+      "db8a1992-f750-499d-9261-334b66a9509b": {
+        "id": "db8a1992-f750-499d-9261-334b66a9509b",
+        "parent": null,
+        "name": "package.json",
+        "type": "JSON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "package.json"
+      },
+      "f0781eb0-0b2e-4856-b55d-3cc7d3c012d7": {
+        "id": "f0781eb0-0b2e-4856-b55d-3cc7d3c012d7",
+        "parent": null,
+        "name": "Authorizer.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "Authorizer.js"
+      }
+    },
+    "openFiles": [
+      "c443d0fd-c563-403d-9457-d44b639f8200"
+    ],
+    "currentFileId": "c443d0fd-c563-403d-9457-d44b639f8200",
+    "resources": {
+      "http-trigger": {
+        "name": "http-trigger",
+        "type": "http-trigger",
+        "config": {}
+      },
+      "pubsubcloudBuilds": {
+        "name": "pubsubcloudBuilds",
+        "type": "CloudPubSub",
+        "config": {
+          "mode": 1,
+          "topic": {
+            "name": "cloud-builds",
+            "subscriptions": []
+          }
+        }
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [],
+    "packageJSON": {
+      "dependencies": {
+        "googleapis": {
+          "name": "googleapis",
+          "language": "nodejs",
+          "version": "29.0.0",
+          "dev": false,
+          "notRemovable": false
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.5.2",
+    "projectName": "gcp-node-indunil-f1-21",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east1",
+    "platform": "GCP",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1612154220288
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "gcp-node-indunil-f1-21",
+      "url": "https://github.com/Indunil1992/gcp-node-indunil-f1-21"
+    }
+  }
+}
